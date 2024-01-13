@@ -1,0 +1,47 @@
+Write an application in which you assign data to a mix of eight IncomingPhoneCall and OutgoingPhoneCall objects into an array.
+Use a for loop to display the data. Save the file as PhoneCallArray.java.
+
+OUTPUT:-
+Incoming Call Information:
+Phone Number: 123-456-7890
+Rate: $0.02 per call
+Price: $0.02
+
+Outgoing Call Information:
+Phone Number: 987-654-3210
+Rate: $0.04 per minute
+Number of Minutes: 5
+Price: $0.2
+
+Incoming Call Information:
+Phone Number: 111-222-3333
+Rate: $0.02 per call
+Price: $0.02
+
+Outgoing Call Information:
+Phone Number: 444-555-6666
+Rate: $0.04 per minute
+Number of Minutes: 3
+Price: $0.12
+
+Incoming Call Information:
+Phone Number: 777-888-9999
+Rate: $0.02 per call
+Price: $0.02
+
+Outgoing Call Information:
+Phone Number: 111-222-3333
+Rate: $0.04 per minute
+Number of Minutes: 2
+Price: $0.08
+
+Incoming Call Information:
+Phone Number: 999-888-7777
+Rate: $0.02 per call
+Price: $0.02
+
+Outgoing Call Information:
+Phone Number: 555-444-3333
+Rate: $0.04 per minute
+Number of Minutes: 4
+Price: $0.16

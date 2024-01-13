@@ -1,0 +1,9 @@
+Think of two more objects that use turn(), create classes for them, and then add objects to the DemoTurners application, renaming it DemoTurners2. java.
+Save the files, using the names of new objects that use turn().
+
+OUTPUT :-
+Changing colors
+Going to the next page
+Flipping
+Opening or closing the door
+Turning the steering wheel

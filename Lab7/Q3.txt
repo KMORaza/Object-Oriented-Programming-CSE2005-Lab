@@ -1,0 +1,23 @@
+Allow a user to enter an integer to declare an array of double with specific size.
+Java generates a NumberFormatException if you attempt to enter a non-integer value; handle this exception by displaying an appropriate error message.
+Create an array using the integer entered as the size.
+Java generates a NegativeArraySizeException if you attempt to create an array with a negative size; handle this exception by setting the array size to a default value of five.
+If the array is created successfully, use exception-handling techniques to ensure that each entered array value is a double or not.
+If not re-prompt the user to take proper input with suitable message.
+The program should display each entered value and its distance from the average.
+Save the file as DistanceFromAverageWithExceptionHandling.java
+
+OUTPUT :-
+Enter the size of the array: 5
+Enter value #1: 10
+Enter value #2: 20
+Enter value #3: 30
+Enter value #4: 40
+Enter value #5: 50
+
+Values and their distance from the average:
+Value #1: 10.0, Distance from Average: 20.0
+Value #2: 20.0, Distance from Average: 10.0
+Value #3: 30.0, Distance from Average: 0.0
+Value #4: 40.0, Distance from Average: 10.0
+Value #5: 50.0, Distance from Average: 20.0

@@ -1,0 +1,33 @@
+Write an application named BookArray in which you create an array that holds 10 Books, some Fiction and some NonFiction.
+Using a for loop, display details about all 10 books. Save the file as BookArray.java.
+
+OUTPUT :-
+Book Title: The Great Novel
+Book Price: $24.99
+
+Book Title: Encyclopedia of Everything
+Book Price: $37.99
+
+Book Title: Mystery Masterpiece
+Book Price: $24.99
+
+Book Title: Science Chronicles
+Book Price: $37.99
+
+Book Title: Adventure Quest
+Book Price: $24.99
+
+Book Title: History Unveiled
+Book Price: $37.99
+
+Book Title: Fantasy Realm
+Book Price: $24.99
+
+Book Title: Geography Essentials
+Book Price: $37.99
+
+Book Title: Romantic Saga
+Book Price: $24.99
+
+Book Title: Mathematics Insights
+Book Price: $37.99

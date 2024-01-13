@@ -1,0 +1,11 @@
+Write a program that declares a named constant to hold the number of quarts in a gallon (4).
+Also declare a variable to represent the number of quarts needed for a painting job, and assign an appropriate value for example, 18 (default value).
+Compute and display the number of gallons and quarts needed for the job.
+Display explanatory text with the values for example, a job that needs 18 quarts requires 4 gallons plus 2 quarts.
+Instead of assigning a value to the number of quarts, accept the value from the user as input.
+Now, add exception handling capabilities to this program and continuously re-prompt the user while any non-numeric value is entered.
+Save the file as QuartsToGallonsWithExceptionHandling.java.
+
+OUTPUT :-
+Enter the number of quarts needed for the painting job: 25
+A job that needs 25 quarts requires 6 gallons plus 1 quarts.

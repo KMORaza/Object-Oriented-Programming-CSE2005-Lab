@@ -1,0 +1,8 @@
+Apply Dynamic method dispatch to show the power of it and name the class as DemoTurners3.
+
+OUTPUT :-
+Changing colors
+Going to the next page
+Flipping
+Opening or closing the door
+Turning the steering wheel

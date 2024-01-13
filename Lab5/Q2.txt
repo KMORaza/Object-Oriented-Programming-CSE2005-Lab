@@ -1,0 +1,12 @@
+Modify question (3) of Lab exercise 4, adding an interface called SidedObject that contains a method called displaySides(); this method displays the number of sides the object possesses.
+Modify the GeometricFigure subclasses to include the use of the interface to display the number of sides of the figure. Create an application that demonstrates the use of both subclasses.
+Save the files as GeometricFigure2.java, Square2.java, Triangle2.java, SidedObject.java, and UseGeometric2.java.
+
+OUTPUT:-
+Figure Type: Square
+Area: 25.0
+Number of sides: 4
+
+Figure Type: Triangle
+Area: 6.0
+Number of sides: 3

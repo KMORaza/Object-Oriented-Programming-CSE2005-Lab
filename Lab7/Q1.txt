@@ -1,0 +1,14 @@
+Consider a supermarket and develop following classes –
+Product: It has three attributes name, price, and discount. Supply appropriate getter and setter methods.
+ProductBasket: It is used to hold bunch of products before purchase of products.
+Sales supervisor observes that two product baskets are very similar and he want to duplicate the bill generation of first basket to avoid re-entering the products of second basket for bill generation.
+Apply suitable Object Cloning to generate different bills even if few items are deleted in generation of second bill. Also ensure that second bill modifications will not affect first bill.
+Write a CloneTest class and check if the applied cloning works or not with two objects.
+
+OUTPUT :-
+Basket 1 Products: [Lab7.Product@6acbcfc0, Lab7.Product@5f184fc6]
+Basket 2 Products: [Lab7.Product@6acbcfc0, Lab7.Product@5f184fc6]
+
+After removing a product from Basket 2:
+Basket 1 Products: [Lab7.Product@6acbcfc0, Lab7.Product@5f184fc6]
+Basket 2 Products: [Lab7.Product@6acbcfc0]
