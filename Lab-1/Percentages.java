@@ -26,6 +26,7 @@ public class Percentages {
         System.out.println(x + " is " + percentage + " percent of " + y + ".");
     }
 }
+
 /*
 OUTPUT :-
 2.0 is 40.0 percent of 5.0.
