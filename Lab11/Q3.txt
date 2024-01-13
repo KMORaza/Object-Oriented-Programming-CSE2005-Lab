@@ -1,0 +1,8 @@
+Create a CaeserCipher class to perform substitution and reverse substitution of characters of a message.
+- mEncryption method - substitute a character with another charcter of alphabet.
+- mDecryption method - similar to mEncryption method but it performs in reverse.
+Each character of message is considered as numeric value with the following mapping: a-z to 0-25, respectively (a-0,b-1,c-2,....z-25).
+The mEncryption method replaces each character of the message with another character by using the following formula: (𝑁(𝑐ℎ) + 𝑘)%26, where 𝑁(𝑐ℎ) means Numeric value of a character 'ch', 𝑘 means key value 0 <= 𝑘 <= 25.
+The mDecryption method substitutes each character with the following formula: (𝑁(𝑐ℎ) − 𝑘)%26.
+Inputs to each method is a message and a key and output is substituted message printed on console character by character.
+Create a TestCaeserCipher class to test mEncryption & mDecryption methods.
