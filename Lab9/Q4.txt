@@ -1,0 +1,5 @@
+In a super market, usually products are categorized into fancy, grocery, plastic, steel, etc.
+Each product falls under a single category. Each product is depicted by product id, product name, and product price.
+Develop “ProductList” class to hold all product objects of same category as a single “ProductList” object.
+Also develop a Key-Value model to represent product category and its relevant ProductList object using HashMap and display all products in the following format with suitable iterator:
+      Product Category   |   Product_Id   |   Product_Name   |   Product Price

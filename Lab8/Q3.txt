@@ -1,0 +1,5 @@
+Develop a class “Contacts” with attributes first name, last name, organization, mobile number.
+Develop another class “ContactList” to hold all contacts of a user in the form of Contacts class objects and as an Array List.
+Develop a menu-based application to add, to delete, to update, and to display all contacts.
+During display of each contact object from the Array List the developer not able to access attributes.
+Find the way to display to all objects using Java predefined methods, in the order of insertions taken place into an Array List

@@ -1,0 +1,33 @@
+Develop a class “Product” with attributes product id, product name, product price.
+Develop another class “ProductList” to hold all products of a shopping mall as Product objects and as a Linked List.
+Now the store manager wants to display the products either in ascending order of product names or descending order of product price.
+Develop a suitable logic using Comparator interface to display products in requested order.
+
+OUTPUT :-
+Products in ascending order of names:
+Product ID: 3
+Product Name: Headphones
+Product Price: $99.99
+--------------------------
+Product ID: 1
+Product Name: Laptop
+Product Price: $899.99
+--------------------------
+Product ID: 2
+Product Name: Smartphone
+Product Price: $599.99
+--------------------------
+
+Products in descending order of prices:
+Product ID: 1
+Product Name: Laptop
+Product Price: $899.99
+--------------------------
+Product ID: 2
+Product Name: Smartphone
+Product Price: $599.99
+--------------------------
+Product ID: 3
+Product Name: Headphones
+Product Price: $99.99
+--------------------------

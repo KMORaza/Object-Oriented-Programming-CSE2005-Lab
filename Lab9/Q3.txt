@@ -1,0 +1,3 @@
+A mobile user can store the contacts with relevant information such as name, mobile number, mail id, organization.
+The user can add a new contact, remove a contact, display all contacts, and also can search for a contact.
+Develop a class to store the contacts and to perform the mentioned operations using HashMap key-value model.

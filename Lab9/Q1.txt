@@ -1,0 +1,4 @@
+Develop a class “Contacts” with attributes first name, last name, organization, mobile number.
+Develop another class “ContactList” to hold all contacts of a user in the form of Contacts class objects and as an Array List.
+Now the user wants to display all the contacts in ascending order of first name or descending order of last name.
+Develop a suitable logic using Comparator interface to display contacts in requested order.
