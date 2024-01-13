@@ -1,0 +1,5 @@
+Write a multithreaded program to compute sum of elements of NxN matrix. It should be done in two phases.
+Phase I: Create N threads to compute 'N' Columns sum, where 'i' th thread computes a 'i' th column sum.
+Phase II: Create a thread to compute sum of 'N' Column's Sums. Finally, main thread is going to print result.
+Note: Main thread should wait till all threads completes their work. You can use Math.random() to initialize NxN matrix, in the range 0 to 100; 5<=N<=8.
+Implement this application in two versions, using both Thread class & Runnable interface.

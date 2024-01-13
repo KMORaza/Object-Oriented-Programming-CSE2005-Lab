@@ -1,0 +1,19 @@
+Develop a simple chat application between two users using "Send-Wait-Receive" protocol.
+Once a user sends a message, he waits till a message is received from other user.
+The users are "User1" and "User2". At initial stage of application, User1 is in sending mode and User2 is in receiving mode.
+These two users are sending and receiving the messages alternatively.
+⎯ Create a Chat class with two methods: sendMessage and recvMessage
+⎯ Create two threads to represent two users, User1 and User2.
+⎯ Use Interthread communication to exchange messages.
+⎯ No need to maintain any chat history.
+Example:
+User1: Hi
+User2: Hello
+User1: R u preparing for exam?
+User2: Yes
+User1: Ok. Bye
+User2: Bye.
+User1(User2):Hi
+User2(User1):Hi
+User2(User1):Hello
+User1(User2):Hello

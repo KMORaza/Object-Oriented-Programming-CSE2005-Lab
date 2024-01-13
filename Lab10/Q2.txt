@@ -1,0 +1,1 @@
+Develop a Generic SortedList class to sort the array of objects (either Numeric or String) and to print the sorted list in forward and reverse order.

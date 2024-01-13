@@ -1,0 +1,28 @@
+Apply Interthread communication to solve the Producer-Consumer problem with a common or shared bounded buffer (Queue) holding up to 5 elements.
+⎯ The producer consumer problem is a synchronization problem. There is a fixed size buffer and the producer produces items and enters them into the buffer. The consumer removes the items from the buffer and consumes them.
+⎯ A producer should not produce items into the buffer when the consumer is consuming an item from the buffer and vice versa. So, the buffer should only be accessed by the producer or consumer at a time.
+⎯ Whenever buffer is filled up and no more space to add the element into the queue(buffer) producer has to wait until the buffer is emptied by consumer. Whenever the buffer is empty and no more items are available for consumption the consumer should wait for producer to produce elements.
+
+Write a solution for N elements, where N is multiple of 5 or greater than 5, other than 0.
+
+OUTPUT :-
+Produced: 1
+Produced: 2
+Produced: 3
+Produced: 4
+Produced: 5
+Consumed: 1
+Consumed: 2
+Consumed: 3
+Consumed: 4
+Consumed: 5
+Produced: 6
+Produced: 7
+Produced: 8
+Produced: 9
+Produced: 10
+Consumed: 6
+Consumed: 7
+Consumed: 8
+Consumed: 9
+Consumed: 10

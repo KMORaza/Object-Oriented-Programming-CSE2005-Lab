@@ -1,0 +1,14 @@
+Develop a Menu Based GUI using JavaFX:-
+Menus: Country, Font, Color
+Menu Items:
+⎯ Any 7 country names under Country.
+⎯ Name, Type, Size are Menu items under Font.
+⎯ Any four font names under Name Menu
+⎯ Type should contain Bold,Italic
+⎯ Size may contain 12,14,16,18
+⎯ Any standard seven colours as Menu items under Colour Menu.
+If a user clicks any menu item, It should be displayed with specified colour and font in window area.
+Provide shortcut keys to every menus and menu items like ctrl+o, ctrl+s.
+Provide a popup menu to contain two options, clear and exit.
+When user clicks clear, it should clears the window area and when user clicks exit, it should terminate the application.
+Save the file as MenuWithJavaFX.java

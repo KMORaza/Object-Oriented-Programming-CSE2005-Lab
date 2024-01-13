@@ -1,0 +1,5 @@
+Develop a Generic Set class to perform mathematical set operations: union, intersect, and find operations on set of objects limited to numerical values.
+* Union: performs union of two sets.
+* Intersect: performs intersection of two sets.
+* Find: it returns a Boolean value to refer whether particular object is in set or not?
+Note: All elements in the set must be unique and number of elements in the set, at beginning of program, at most 8 and not less than 5

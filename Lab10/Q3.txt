@@ -1,0 +1,17 @@
+Create following class hierarchy:
+
+                      Shape
+                        |
+                        |
+   ---------------------+---------------------
+  |                     |                     |
+  Circle              Square                Rectangle
+
+Develop a Generic class “Node” to work with different shapes, like circle, rectangle, square.
+Node class contains:
+⎯ An attribute area, which is to be initialized with appropriate shape’s area value by calling calcArea() method of the relevant class(e.g., Circle)
+⎯ A method “compareArea()” to compare the areas of different shapes with wild-card parameter to determine which shape is largest or smallest in terms of area.
+Formula to calculate area:
+Circle: 𝐴=𝜋∗𝑟∗𝑟 where r is radius
+Square: 𝐴=𝐿𝑒𝑛𝑔𝑡ℎ∗𝑊𝑖𝑑𝑡ℎ, where Length and Width are same
+Rectangle: 𝐴=𝐿𝑒𝑛𝑔𝑡ℎ∗𝑊𝑖𝑑𝑡ℎ

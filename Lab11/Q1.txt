@@ -1,0 +1,20 @@
+Create the generic interface GenericQueuable<T> that contains the following abstract methods:
+⎯ an abstract method insertEnd(T e) which adds the element to the Queue at end.
+⎯ an abstract method removeBegin() which removes a element from the beginning of the queue.
+⎯ an abstract method printQueue() which prints the queue elements from the front of the queue to end.
+⎯ an abstract method isQueueEmpty() which returns true if the queue is empty otherwise return false.
+Here 'T' should be bounded by Person and its Children.
+Person—A Person contains a first name, last name, street address, zip code, and phone number. The class also includes a method that sets each data field, and a display method that displays all of a Person’s information on a single line at the command line on the screen.
+CollegeEmployee—CollegeEmployee descends from Person. A CollegeEmployee also includes a Social Security number, an annual salary, and a department name, as well as methods that override the Person methods to accept and display all CollegeEmployee data.
+Faculty—Faculty descends from CollegeEmployee. This class also includes a Boolean field that indicates whether the Faculty member is tenured, as well as methods that override the CollegeEmployee methods to accept and display this additional piece of information.
+Student—Student descends from Person. In addition to the fields available in Person, a Student contains a major field of study and a grade point average as well as methods that override the Person methods to accept and display these additional facts.
+Create GenericQueue<T> such that it implements GenericQueuable<T>. Write a GenericQueueDemo class to test the operations of GenericQueue class with two different queues.
+
+OUTPUT:-
+Person Queue:
+John Doe, 123 Main St, 12345, 555-1234
+Jane Doe, 456 Oak St, 67890, 555-5678
+
+Student Queue:
+Alice Smith, 789 Elm St, 54321, 555-9876, Major: Computer Science, GPA: 3.8
+Bob Johnson, 101 Pine St, 13579, 555-4321, Major: Physics, GPA: 3.5

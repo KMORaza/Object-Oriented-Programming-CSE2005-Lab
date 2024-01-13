@@ -1,0 +1,5 @@
+Design a JavaFX application for the Sublime Sandwich Shop.
+The user makes sandwich order choices from list boxes, and the application displays the price.
+The user can choose from three main sandwich ingredients of your choice (for example, chicken) at three different prices.
+The user also can choose from three different bread types (for example, rye) from a list of at least three options.
+Save the application as FXSandwich.java.
