@@ -1,0 +1,30 @@
+Develop Number Utilities package and provide following classes with supported functionalities:
+
+    com
+     |
+     +---> arrsoft
+              |
+              +---> number
+                      |
+                      +---> util
+                              |
+     +------------------------+------------------------+
+     |                        |                        |
+     Armstrong.java       Palindrome.java           Factorial.java
+
+
+Develop a NumberUtilTest class to test the Number Utilities package.
+
+
+     Class           |                Method               |    Description
+     ----------------|-------------------------------------|--------------------------
+     Armstrong.java  | static boolean armstrong (int n)    | return true if the number
+                     |                                     | n is Armstrong
+     ----------------|-------------------------------------|--------------------------
+     Palindrome.java | static boolean palindrome (int n)   | returns true is number n
+                     |                                     | is palindrome
+     ----------------|-------------------------------------|--------------------------
+     Factorial.java  | static int factorial (int n)        | returns the factorial of
+                     |                                     | given number n
+     ----------------+-------------------------------------+--------------------------
+
